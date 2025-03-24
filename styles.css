@@ -51,7 +51,8 @@ body{
 
 .top-body img{
     background-color: gray;
-    flex-basis: 600px;
+    height: 100px;
+    width: 600px;
 }
 
 .middle-section{
@@ -62,7 +63,29 @@ body{
 
 .pictures-info{
     display: flex;
-    gap: 40px;
+    gap: 50px;
+}
+
+.picture-info-pair{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+
+}
+
+.picture-info-pair img{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blue;
+}
+
+.bottom-section{
+    background-color: lightgray;
 }
 
 
