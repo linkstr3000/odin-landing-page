@@ -1,3 +1,7 @@
+*{
+    font-family: roboto, "sans serif";
+}
+
 h1, p{
     margin: 0;
 }
@@ -85,7 +89,38 @@ body{
 }
 
 .bottom-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: lightgray;
+    padding: 100px 0px;
+}
+
+.quote{
+    width: 750px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-sig{
+    width: 750px;
+    text-align: end;
+    font-weight: bold;
+}
+
+.call-to-action-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.call-to-action{
+    display: flex;
+    gap: 50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 25px 50px;
 }
 
 
